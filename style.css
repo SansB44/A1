@@ -1,0 +1,73 @@
+/* Reset some default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff4da6, #ff9966);
+    padding: 40px;
+}
+
+/* Center container */
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+/* Menu box */
+.menu-container {
+    background-color: #f2f2f2;
+    width: 600px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Section titles */
+h2 {
+    margin: 20px 0 10px;
+}
+
+/* Line separator */
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #999;
+}
+
+/* Menu item spacing */
+.item {
+    margin-bottom: 15px;
+}
+
+/* Item name + price on same line */
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+/* Description text */
+.item p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}

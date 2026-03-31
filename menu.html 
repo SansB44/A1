@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafe Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page">
+        <div class="menu-container">
+
+            <h1>Menu</h1>
+            <p class="subtitle">Open from 8am to 9pm every day</p>
+
+            <hr>
+
+            <h2>Sandwiches and wraps</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Ham and Cheese</span>
+                    <span>£2.95</span>
+                </div>
+                <p>Cooked ham, cheddar cheese slices, wholemeal bread</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Hummus and Feta</span>
+                    <span>£3.95</span>
+                </div>
+                <p>Roasted red pepper hummus, feta, salad, rye bread</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Egg classic</span>
+                    <span>£1.95</span>
+                </div>
+                <p>Free range eggs, mayo, malted granary bread</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Chicken wrap</span>
+                    <span>£1.95</span>
+                </div>
+                <p>Chargrilled chicken, garlic mayo, shredded lettuce, plain wrap</p>
+            </div>
+
+            <hr>
+
+            <h2>Soups</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Carrot and coriander</span>
+                    <span>£2.50</span>
+                </div>
+                <p>Warming carrot and coriander seed soup with spices</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Lentil</span>
+                    <span>£2.50</span>
+                </div>
+                <p>Hearty red lentil soup with a dash of sour cream</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Tomato</span>
+                    <span>£2.50</span>
+                </div>
+                <p>Homemade organic roasted tomato soup</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
+ 
