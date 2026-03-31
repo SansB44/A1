@@ -1,73 +1,67 @@
-/* Reset some default spacing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Background */
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #ff4da6, #ff9966);
+    font-family: Georgia, serif;
+    background: linear-gradient(to bottom, #8e2de2, #ff6a88);
     padding: 40px;
 }
 
-/* Center container */
 .page {
     display: flex;
     justify-content: center;
 }
 
-/* Menu box */
 .menu-container {
-    background-color: #f2f2f2;
+    background-color: #fff0f6;
     width: 600px;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
-/* Main title */
 h1 {
     text-align: center;
-    font-size: 48px;
+    font-size: 52px;
     margin-bottom: 10px;
+    color: #6a0572;
 }
 
-/* Subtitle */
 .subtitle {
     text-align: center;
     font-style: italic;
     margin-bottom: 30px;
-    color: #555;
+    color: #7a4b6a;
 }
 
-/* Section titles */
 h2 {
     margin: 20px 0 10px;
+    color: #6a0572;
 }
 
-/* Line separator */
 hr {
     margin: 20px 0;
     border: 0;
-    border-top: 1px solid #999;
+    border-top: 2px solid #c06c84;
 }
 
-/* Menu item spacing */
 .item {
     margin-bottom: 15px;
 }
 
-/* Item name + price on same line */
 .item-header {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    color: #4a2c40;
 }
 
-/* Description text */
 .item p {
     font-size: 14px;
     color: #666;
     margin-top: 5px;
+    font-style: italic;
 }
